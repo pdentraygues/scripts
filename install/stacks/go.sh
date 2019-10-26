@@ -29,3 +29,9 @@ go get -u google.golang.org/grpc
 echo "Install protoc gen for go"
 go get -u github.com/golang/protobuf/protoc-gen-go
 
+echo "Install protoc gen for grpc gateway"
+go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
+
+echo "Install protoc gen for swagger"
+go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
+
