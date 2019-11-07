@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "Installing golang 1.12.2"
-wget https://dl.google.com/go/go1.12.2.linux-amd64.tar.gz
-sudo tar -zxvf go1.12.2.linux-amd64.tar.gz
+echo "Installing golang 1.13.4"
+wget https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
+sudo tar -zxvf go1.13.4.linux-amd64.tar.gz
 sudo mv go /usr/local
 
 
@@ -12,7 +12,7 @@ echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.profile
 
 source ~/.profile
 
-echo "Installing protoc 3.7.1"
+echo "Installing protoc 3.10.1"
 curl -OL https://github.com/google/protobuf/releases/download/v3.7.1/protoc-3.7.1-linux-x86_64.zip
 
 unzip protoc-3.7.1-linux-x86_64.zip -d protoc3
