@@ -35,3 +35,6 @@ go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
 echo "Install protoc gen for swagger"
 go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
 
+echo "Install godog tool"
+go get -u go get gihub.com/DATA-DOG/godog/cmd/godog
+
