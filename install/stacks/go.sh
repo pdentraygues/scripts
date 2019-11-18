@@ -38,3 +38,5 @@ go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
 echo "Install godog tool"
 go get -u github.com/DATA-DOG/godog/cmd/godog
 
+echo "Install mage tool"
+go get -u github.com/magefile/mage
