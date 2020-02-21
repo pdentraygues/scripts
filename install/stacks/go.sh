@@ -2,7 +2,7 @@
 
 echo "Installing golang 1.13.4"
 wget https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
-sudo tar -zxvf go1.13.4.linux-amd64.tar.gz
+tar -zxvf go1.13.4.linux-amd64.tar.gz
 sudo mv go /usr/local
 
 
